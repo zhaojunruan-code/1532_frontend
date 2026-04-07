@@ -34,11 +34,12 @@ const getActivityConfig = (token: GlobalToken) => {
 const LoginPage = () => {
   const { token } = theme.useToken();
 
+  /** 登录请求：成功后跳转到数据概览页 */
   const requestLogin = useRequest(login, {
     manual: true,
     loadingDelay: 1000,
     onSuccess: () => {
-      history.replace('/home');
+      history.replace('/dashboard');
     },
   });
 
@@ -71,7 +72,7 @@ const LoginPage = () => {
           </div>
         }
         onFinish={async (values) => {
-          history.replace('/home');
+          history.replace('/dashboard');
           await requestLogin.run(values);
           return true;
         }}
