@@ -68,82 +68,82 @@ export default {
       icon: 'SafetyOutlined',
     },
     /* ==================== 原有框架页面（保留） ==================== */
-    {
-      name: '工作台',
-      path: '/workplace',
-      component: './Workplace',
-      icon: 'LaptopOutlined',
-    },
-    {
-      name: '商品管理',
-      path: '/product',
-      icon: 'ContainerOutlined',
-      routes: [
-        { path: '/product/', redirect: '/product/list' },
-        {
-          name: '商品分类',
-          path: '/product/category',
-          component: './Product/Category',
-        },
-        {
-          name: '商品列表',
-          path: '/product/list',
-          component: './Product/List',
-        },
-      ],
-    },
-    {
-      name: '文章管理',
-      path: '/article',
-      icon: 'FileOutlined',
-      routes: [
-        { path: '/article/', redirect: '/article/list' },
-        {
-          name: '文章分类',
-          path: '/article/category',
-          component: './Article/Category',
-        },
-        {
-          name: '文章列表',
-          path: '/article/list',
-          component: './Article/List',
-        },
-      ],
-    },
-    {
-      name: '系统设置',
-      path: '/system',
-      icon: 'setting',
-      component: './Access',
-      wrappers: ['@/wrappers/auth'],
-      routes: [
-        { path: '/system/', redirect: '/system/account' },
-        {
-          name: '账号管理',
-          path: '/system/account',
-          component: './Account',
-        },
-        {
-          name: '部门管理',
-          path: '/system/dept',
-          component: './Account',
-        },
-        {
-          name: '角色管理',
-          path: '/system/role',
-          component: './Account',
-        },
-        {
-          name: '菜单管理',
-          path: '/system/menu',
-          component: './Account',
-        },
-        {
-          name: '操作记录',
-          path: '/system/operate',
-          component: './Account',
-        },
-      ],
-    },
+    // {
+    //   name: '工作台',
+    //   path: '/workplace',
+    //   component: './Workplace',
+    //   icon: 'LaptopOutlined',
+    // },
+    // {
+    //   name: '商品管理',
+    //   path: '/product',
+    //   icon: 'ContainerOutlined',
+    //   routes: [
+    //     { path: '/product/', redirect: '/product/list' },
+    //     {
+    //       name: '商品分类',
+    //       path: '/product/category',
+    //       component: './Product/Category',
+    //     },
+    //     {
+    //       name: '商品列表',
+    //       path: '/product/list',
+    //       component: './Product/List',
+    //     },
+    //   ],
+    // },
+    // {
+    //   name: '文章管理',
+    //   path: '/article',
+    //   icon: 'FileOutlined',
+    //   routes: [
+    //     { path: '/article/', redirect: '/article/list' },
+    //     {
+    //       name: '文章分类',
+    //       path: '/article/category',
+    //       component: './Article/Category',
+    //     },
+    //     {
+    //       name: '文章列表',
+    //       path: '/article/list',
+    //       component: './Article/List',
+    //     },
+    //   ],
+    // },
+    // {
+    //   name: '系统设置',
+    //   path: '/system',
+    //   icon: 'setting',
+    //   component: './Access',
+    //   wrappers: ['@/wrappers/auth'],
+    //   routes: [
+    //     { path: '/system/', redirect: '/system/account' },
+    //     {
+    //       name: '账号管理',
+    //       path: '/system/account',
+    //       component: './Account',
+    //     },
+    //     {
+    //       name: '部门管理',
+    //       path: '/system/dept',
+    //       component: './Account',
+    //     },
+    //     {
+    //       name: '角色管理',
+    //       path: '/system/role',
+    //       component: './Account',
+    //     },
+    //     {
+    //       name: '菜单管理',
+    //       path: '/system/menu',
+    //       component: './Account',
+    //     },
+    //     {
+    //       name: '操作记录',
+    //       path: '/system/operate',
+    //       component: './Account',
+    //     },
+    //   ],
+    // },
   ],
 };

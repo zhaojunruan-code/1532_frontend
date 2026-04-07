@@ -25,7 +25,7 @@ export default defineConfig({
     $PRIMARY: PRIMARY_COLOR, // 主题色
   },
   layout: {
-    title: '管理后台',
+    title: '报告生成系统',
   },
   npmClient: 'pnpm',
   ...proxyConfig,
