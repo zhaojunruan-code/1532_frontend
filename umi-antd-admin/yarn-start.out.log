@@ -1,0 +1,33 @@
+yarn run v1.22.22
+$ npm run dev
+
+> dev
+> max dev
+
+info  - [你知道吗？] @umijs/max 是蚂蚁内网框架 Bigfish 的对外版本。
+info  - Umi v4.6.39
+info  - Preparing...
+info  - MFSU eager strategy enabled
+info  - [MFSU][eager] restored cache
+[HPM] Proxy created: /api  -> http://jsonplaceholder.typicode.com/
+[HPM] Proxy rewrite rule created: "^/api" ~> ""
+event - [MFSU][eager] start build deps
+info  - [MFSU] skip buildDeps
+        ╔════════════════════════════════════════════════════╗
+        ║ App listening at:                                  ║
+        ║  >   Local: http://localhost:8001                  ║
+ready - ║  > Network: http://198.18.0.1:8001                 ║
+        ║                                                    ║
+        ║ Now you can open browser with the above addresses↑ ║
+        ╚════════════════════════════════════════════════════╝
+info  - [MFSU][eager] worker init, takes 1986ms
+event - [Webpack] Compiled in 2933 ms (429 modules)
+wait  - [Webpack] Compiling...
+event - [MFSU][eager] start build deps
+info  - [MFSU] skip buildDeps
+event - [Webpack] Compiled in 249 ms (415 modules)
+wait  - [Webpack] Compiling...
+event - [MFSU][eager] start build deps
+info  - [MFSU] skip buildDeps
+event - [Webpack] Compiled in 98 ms (415 modules)
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
